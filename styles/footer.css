@@ -1,6 +1,26 @@
 .footer-container {
   width: 100vw;
-  height: 500px;
+  /* height: 600px; */
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--body-regular);
+  padding-top: 50px;
+  padding-bottom: 25px;
+  gap: 20px;
+}
+.footer-container div {
+  padding-left: 25px;
+}
+footer h4 {
+  font-family: var(--heading);
+  font-weight: 500;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-logo {
+  font-family: var(--body-bold);
 }
