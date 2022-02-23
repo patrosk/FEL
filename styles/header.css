@@ -24,7 +24,7 @@ nav.menu-hamburger {
     width: 100vw;
     height: 100vh;
     background-color: black;
-    transform: translate(0, 0);
+    transform: translate(100%, 0);
     transition: transform 0.5s 0s;
 
     display: flex;
@@ -47,6 +47,13 @@ nav.menu-hamburger {
     margin-bottom: 1.5rem;
 }
 
+.nav-open nav {
+    transform: translate(0, 0);
+    transition-delay: 0.1s;
+}
+
+
+/* Hide desktop nav on mobile */
 nav.menu-desktop {
     display: none;
     font-family: var(--heading);
