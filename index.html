@@ -12,11 +12,19 @@
   <body>
     <!--NAVIGATION -->
     <header>
-      <nav>
+      <nav class="menu-mobile">
         <a class="logo" href="">
+          Logo placeholder
           <img src="" />
         </a>
-        <img class="hamburger" src="#" alt="">
+        <a class="menu-toggle" href="#">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 36H42V32H6V36ZM6 26H42V22H6V26ZM6 12V16H42V12H6Z" fill="white"/>
+          </svg>
+        </a>
+      </nav>
+      
+      <nav class="menu-desktop">
         <ul>
           <li>
             <a href="#">Start</a>
@@ -30,6 +38,14 @@
         </ul>
       </nav>
     </header>
+
+    <nav class="menu-hamburger">
+      <div class="menu-item">
+        <a href="#">Start</a>
+        <a href="#">Labs</a>
+        <a href="#">Kontakt</a>
+      </div>
+    </nav>
 
     <!-- HERO -->
     <section class="hero">
@@ -80,4 +96,5 @@
       </div>
     </footer>
   </body>
+  <script src="./app.js"></script>
 </html>

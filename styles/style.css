@@ -31,7 +31,7 @@
 :root {
   /* Color */
   --white: #fff;
-  --black: #000;
+  --black: #212121;
 
   /* Font type */
   --heading: poster-gothic-atf, sans-serif;
@@ -41,7 +41,7 @@
   /* Font size */
   --base-size: 16px;
   --p: 1rem;
-  --h1: 4rem;
+  --h1: 4.5rem;
   --h2: 2rem;
 }
 

@@ -1,7 +1,53 @@
+/*--- MOBILE ---*/
+
 header {
-    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--black);
+    z-index: 999;
 }
 
-nav a {
+nav.menu-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+
+nav.menu-hamburger {
+    position: fixed;
+    top: 4rem;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    transform: translate(0, 0);
+    transition: transform 0.5s 0s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1.5rem;
+}
+
+.menu-item a {
+    font-size: var(--h1);
+    font-family: var(--heading);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+nav.menu-desktop {
+    display: none;
     font-family: var(--heading);
 }
