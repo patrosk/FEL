@@ -5,16 +5,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 4rem;
     background-color: var(--black);
     z-index: 999;
 }
 
-nav.menu-mobile {
+nav.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1.5rem;
+    vertical-align: middle;
+    height: 4rem;
 }
 
 nav.menu-hamburger {
@@ -54,7 +55,31 @@ nav.menu-hamburger {
 
 
 /* Hide desktop nav on mobile */
-nav.menu-desktop {
+.menu-item-desktop {
     display: none;
     font-family: var(--heading);
+}
+
+/*--- DESKTOP ---*/
+
+@media (min-width: 940px) {
+    nav.menu {
+        padding: 2rem 4rem;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-item-desktop {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+
+    }
+
+    .menu-item-desktop a {
+        font-size: var(--h4);
+        /* margin-left: 2rem; */
+    }
 }
