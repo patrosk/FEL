@@ -1,6 +1,5 @@
 .footer-container {
   width: 100vw;
-  /* height: 600px; */
   background-color: black;
   color: white;
   display: flex;
@@ -23,4 +22,22 @@ footer ul {
 }
 .footer-logo {
   font-family: var(--body-bold);
+}
+
+@media screen and (min-width: 430px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 80px;
+  }
+  .footer-container div {
+    padding-left: 0;
+  }
+  .footer-container div:first-child {
+    padding-left: 25px;
+    max-width: 260px;
+  }
+  .footer-container div:last-child {
+    padding-right: 80px;
+  }
 }
