@@ -1,4 +1,6 @@
-/*--- Fonts ---*/
+/*********************
+ * @FONTFACE *
+*********************/
 
 /*- Headings -*/
 @import url("https://use.typekit.net/irh3ude.css");
@@ -22,16 +24,42 @@
          font-style: normal;
   }
 
-/*--- General ---*/
+/*********************
+ * Variables *
+*********************/
+
+:root {
+  /* Color */
+  --white: #fff;
+  --black: #000;
+
+  /* Font type */
+  --heading: poster-gothic-atf, sans-serif;
+  --body-regular: 'Satoshi-Regular';
+  --body-bold: 'Satoshi-Bold';
+
+  /* Font size */
+  --base-size: 16px;
+  --p: 1rem;
+  --h1: 4rem;
+  --h2: 2rem;
+}
+
+/*********************
+ * General *
+*********************/
 
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Satoshi-Regular';
+  font-family: var(--body-regular);
 }
 
-/*--- Font sizes ---*/
+a {
+  color: var(--white);
+  text-decoration: none;
+}
 
 h1 {
-  font-family: poster-gothic-atf, sans-serif;;
+  font-family: var(--heading);
 }

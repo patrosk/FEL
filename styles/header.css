@@ -1,0 +1,7 @@
+header {
+    background-color: black;
+}
+
+nav a {
+    font-family: var(--heading);
+}
