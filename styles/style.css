@@ -42,7 +42,8 @@
   /* Font size */
   --base-size: 16px;
   --p: 1rem;
-  --h1: 4.5rem;
+  --p-large: 1.5rem;
+  --h1: 7.375rem;
   --h2: 2rem;
   --h3: ;
   --h4: 1.5rem;
@@ -58,6 +59,21 @@ body {
   font-family: var(--body-regular);
 }
 
+button {
+  font-family: var(--body-bold);
+  font-size: var(--p-large);
+  background-color: var(--primary-green);
+  border: 4px dashed var(--black);
+  border-radius: 4rem;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--body-regular);
+  color: var(--white);
+}
+
 a {
   color: var(--white);
   text-decoration: none;
@@ -69,6 +85,10 @@ a:hover {
 
 h1 {
   font-family: var(--heading);
+  font-size: var(--h1);
+  color: var(--white);
+  margin: 0;
+  line-height: 1;
 }
 
 /*********************

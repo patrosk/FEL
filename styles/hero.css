@@ -1,0 +1,28 @@
+section.hero {
+    position: relative;
+    top: 64px;
+    background-color: black;
+    padding: 9.375rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.hero-content {
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: var(--p-large);
+}
+
+.hero .image-container {
+    margin: 0;
+}
+
+.hero .image-wrapper {
+    background-color: aqua;
+    width: 32rem;
+    height: 42rem;
+}
