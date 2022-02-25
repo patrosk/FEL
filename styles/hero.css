@@ -1,8 +1,7 @@
 /*--- MOBILE ---*/
 section.hero {
-    position: relative;
-    top: 4rem;
-    background-color: black;
+    margin-top: 4rem;
+    background-color: var(--black);
     padding: 9.375rem 1.5rem;
     display: flex;
     flex-direction: column;
