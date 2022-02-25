@@ -20,6 +20,7 @@
   font-family: var(--body-regular);
   display: flex;
   flex-direction: column;
+  background-color: var(--black);
 }
 .about-container p {
   padding-top: 15px;
