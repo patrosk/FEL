@@ -59,6 +59,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-family: var(--body-regular);
+  overflow-x: hidden;
 }
 
 a {
