@@ -32,6 +32,7 @@
   /* Color */
   --white: #fff;
   --black: #212121;
+  --primary-green: #54DF69;
 
   /* Font type */
   --heading: poster-gothic-atf, sans-serif;
@@ -60,6 +61,10 @@ body {
 a {
   color: var(--white);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-green);
 }
 
 h1 {
