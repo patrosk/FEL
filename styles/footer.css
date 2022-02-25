@@ -1,7 +1,7 @@
 .footer-container {
   width: 100vw;
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   display: flex;
   flex-direction: column;
   font-family: var(--body-regular);
