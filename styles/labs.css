@@ -1,0 +1,16 @@
+.labs h2 {
+  background-color: var(--black);
+  color: var(--white);
+}
+.labs p {
+  color: var(--black);
+}
+.lab-01,
+.lab-02 {
+  background-color: var(--black);
+  color: var(--white);
+}
+.lab-01 p,
+.lab-02 p {
+  color: var(--white);
+}

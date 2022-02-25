@@ -1,0 +1,29 @@
+/*********************
+ * About us *
+*********************/
+.about {
+  height: 100vh;
+  background-color: var(--black);
+}
+.about h2 {
+  background-color: var(--white);
+  font-size: 38px;
+  width: fit-content;
+  font-family: var(--heading);
+  font-weight: 600;
+  padding: 10px 24px;
+}
+.about-container {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: var(--white);
+  font-family: var(--body-regular);
+  display: flex;
+  flex-direction: column;
+}
+.about-container p {
+  padding-top: 15px;
+}
+.squiggle {
+  padding-top: 25px;
+}
