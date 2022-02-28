@@ -93,6 +93,10 @@ button.primary:hover {
   color: var(--white);
 }
 
+button.primary.white-bg {
+  border: 5px dashed var(--white);
+}
+
 p {
   font-family: var(--body-regular);
   color: var(--white);
@@ -104,4 +108,49 @@ h1 {
   color: var(--white);
   margin: 0;
   line-height: 1;
+}
+
+/*********************
+ * FORMS *
+*********************/
+
+input, textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: var(--body-regular);
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid var(--black);
+  border-radius: 0.25rem;
+  outline: none;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+textarea {
+  height: 16rem;
+  resize: vertical;
+}
+
+/* Removes autofill default styling*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px var(--black) inset;
+}
+
+input:-webkit-autofill:focus {
+  box-shadow: 0 0 0 2px var(--primary-green);
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid var(--primary-green);
+  box-shadow: 0 0 0 1px var(--primary-green);
 }
