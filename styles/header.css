@@ -79,7 +79,7 @@ nav.menu-hamburger {
     }
 
     .menu-item-desktop a {
-        font-size: var(--h4);
+        font-size: var(--h5);
         /* margin-left: 2rem; */
     }
 }
