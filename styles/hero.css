@@ -8,7 +8,7 @@ section.hero {
 }
 
 .hero-content h1 {
-    font-size: var(--h2);
+    font-size: var(--h3);
     line-height: 1.125;
 }
 

@@ -47,7 +47,7 @@
   --p-large: 1.5rem;
   --h1: 7.375rem;
   --h2: 4.5rem;
-  --h3: 3;
+  --h3: 3rem;
   --h4: 1.5rem;
 }
 
@@ -67,10 +67,15 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--primary-green);
+  transition: 0.15s;
+}
+
 button {
   font-family: var(--body-bold);
   font-size: var(--p-large);
-  background-color: var(--primary-green);
+  /* background-color: var(--primary-green); */
   border: 6px dashed var(--black);
   border-radius: 4rem;
   padding: 1rem 3rem;
@@ -78,13 +83,19 @@ button {
   cursor: pointer;
 }
 
-p {
-  font-family: var(--body-regular);
+button.primary {
+  background-color: var(--primary-green);
+  color: var(--black);
+  transition: 0.15s;
+}
+
+button.primary:hover {
   color: var(--white);
 }
 
-a:hover {
-  color: var(--primary-green);
+p {
+  font-family: var(--body-regular);
+  color: var(--white);
 }
 
 h1 {
