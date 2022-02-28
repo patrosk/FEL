@@ -27,18 +27,18 @@
     width: 100%;
 }
 
+.form {
+    margin-bottom: 1.5rem;
+}
+
 .form label,
 .info-content h4 {
     display: inline-block;
     font-family: var(--heading);
     font-weight: 600;
     font-size: var(--h5);
-    margin-top: 1.5rem;
+    margin-top: 0;
     margin-bottom: 0.5rem;
-}
-
-.form-group textarea {
-    margin-bottom: 2rem;
 }
 
 .info {
@@ -51,7 +51,7 @@
 
 .separator {
     border-top: 1px solid var(--black);
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
 
 .info-content p {
@@ -97,7 +97,6 @@
 
     .form label,
     .info-content h4 {
-        margin-top: 2rem;
         margin-bottom: 1rem;
     }
 
@@ -116,6 +115,7 @@
         min-height: 13rem;
         width: auto;
         height: auto;
+        margin-top: 2.875rem;
         margin-bottom: 2.5rem;
     }
     
@@ -126,7 +126,7 @@
     }
 
     .separator {
-        margin: 0;
+        margin: 2.5rem 0 1.5rem 0;
     }
 
     .info-content {

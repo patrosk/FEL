@@ -103,17 +103,24 @@ p {
   color: var(--white);
 }
 
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
 h1 {
   font-family: var(--heading);
   font-size: var(--h1);
   color: var(--white);
-  margin: 0;
   line-height: 1;
 }
 
 /*********************
  * FORMS *
 *********************/
+
+label {
+  margin: 0;
+}
 
 input, textarea {
   box-sizing: border-box;
