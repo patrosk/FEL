@@ -11,6 +11,7 @@
   font-family: var(--heading);
   font-weight: 600;
   padding: 10px 24px;
+  margin: 0;
 }
 .about-container {
   padding-left: 24px;
@@ -27,4 +28,13 @@
 .squiggle {
   padding-top: 25px;
   padding-bottom: 40px;
+}
+
+/*--- DESKTOP ---*/
+
+@media (min-width: 940px) {
+  .about h2 {
+    padding: 10px 64px;
+    margin: 0;
+  }
 }

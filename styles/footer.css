@@ -26,13 +26,14 @@ footer ul {
 footer svg {
   vertical-align: bottom;
   margin-left: 5px;
+  fill:var(--white);
 }
 .socials li {
   padding-bottom: 10px;
 }
+
 footer a:hover svg {
-  fill: purple;
-  color: blueviolet;
+  fill: var(--primary-green);
 }
 
 @media screen and (min-width: 430px) {
