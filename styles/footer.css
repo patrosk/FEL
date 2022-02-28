@@ -23,6 +23,17 @@ footer ul {
 .footer-logo {
   font-family: var(--body-bold);
 }
+footer svg {
+  vertical-align: bottom;
+  margin-left: 5px;
+}
+.socials li {
+  padding-bottom: 10px;
+}
+footer a:hover svg {
+  fill: purple;
+  color: blueviolet;
+}
 
 @media screen and (min-width: 430px) {
   .footer-container {
