@@ -2,7 +2,6 @@
  * About us *
 *********************/
 .about {
-  height: 100vh;
   background-color: var(--black);
 }
 .about h2 {
@@ -27,4 +26,5 @@
 }
 .squiggle {
   padding-top: 25px;
+  padding-bottom: 40px;
 }

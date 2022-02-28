@@ -1,21 +1,66 @@
+/*********************
+ * Labs *
+*********************/
+
 .labs {
   background-color: var(--tertiary-pink);
+  padding-top: 2px;
+  padding-bottom: 50px;
 }
-
 .labs h2 {
   background-color: var(--black);
   color: var(--white);
+  font-family: var(--heading);
+  font-weight: 500;
+  font-size: 38px;
+  text-align: center;
+  padding: 18px;
 }
-.labs p {
+.labs-info {
   color: var(--black);
+  text-align: center;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  margin-bottom: 0 !important;
 }
-
-.lab-02,
-.lab-03 {
+.lab-01,
+.lab-01 img {
+  width: 100%;
+  background-color: var(--black);
+}
+.lab {
   background-color: var(--black);
   color: var(--white);
+  margin-left: 24px;
+  margin-right: 24px;
 }
-.lab-02 p,
-.lab-03 p {
+.lab-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.lab-desktop {
+  display: none;
+}
+.labs img {
+  width: 100%;
+}
+.labs h3 {
+  background-color: var(--black);
   color: var(--white);
+  font-family: var(--heading);
+  font-weight: 500;
+  font-size: 32px;
+  text-align: left;
+  padding-left: 24px;
+  margin-bottom: 0;
+}
+.labs p {
+  padding-left: 24px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+}
+.labs button {
+  background-color: var(--tertiary-pink) !important;
+  margin-top: 50px !important;
 }
