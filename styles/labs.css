@@ -7,6 +7,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
   background-image: url(/images/grid.svg);
+  background-size: cover;
 }
 .labs h2 {
   background-color: var(--black);
@@ -28,6 +29,23 @@
 .lab-01 img {
   width: 100%;
   background-color: var(--black);
+}
+.lab-01 svg {
+  float: right;
+  margin-top: 7rem;
+  margin-right: 1.5rem;
+  width: 3rem;
+  fill: var(--white);
+}
+.lab svg {
+  float: right;
+  margin-top: 9rem;
+  margin-right: 1.5rem;
+  width: 3rem;
+  fill: var(--white);
+}
+.labs svg:hover {
+  fill: var(--primary-green);
 }
 .lab {
   background-color: var(--black);

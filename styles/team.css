@@ -1,5 +1,7 @@
 .team {
   background-color: var(--black);
+  background-image: url(/images/pattern_triangle.svg);
+  background-position: center;
   padding-top: 50px;
 }
 .team h2 {
@@ -14,6 +16,7 @@
 }
 .team-info {
   padding: 50px 24px;
+  background-color: var(--black);
 }
 .card-container {
   display: flex;
