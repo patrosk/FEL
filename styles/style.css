@@ -101,6 +101,7 @@ button.primary.white-bg {
 p {
   font-family: var(--body-regular);
   color: var(--white);
+  line-height: 1.5;
 }
 
 h1,
