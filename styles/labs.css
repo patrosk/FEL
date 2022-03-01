@@ -4,8 +4,9 @@
 
 .labs {
   background-color: var(--tertiary-pink);
-  padding-top: 2px;
+  padding-top: 50px;
   padding-bottom: 50px;
+  background-image: url(/images/grid.svg);
 }
 .labs h2 {
   background-color: var(--black);
@@ -19,8 +20,8 @@
 .labs-info {
   color: var(--black);
   text-align: center;
-  padding-left: 40px !important;
-  padding-right: 40px !important;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
   margin-bottom: 0 !important;
 }
 .lab-01,
