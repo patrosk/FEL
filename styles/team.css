@@ -1,0 +1,37 @@
+.team {
+  background-color: var(--black);
+  padding-top: 50px;
+}
+.team h2 {
+  background-color: var(--white);
+  font-size: 38px;
+  width: fit-content;
+  font-family: var(--heading);
+  font-weight: 600;
+  padding: 10px 24px;
+  margin-left: auto;
+  margin-right: 0;
+}
+.team-info {
+  padding: 50px 24px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.team h5 {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 900;
+}
+.card-container p {
+  font-size: 18px;
+}
+.card {
+  height: 630px;
+}
+.card img {
+  width: 100%;
+}

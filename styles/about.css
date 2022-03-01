@@ -11,7 +11,7 @@
   font-family: var(--heading);
   font-weight: 600;
   padding: 10px 24px;
-  margin: 0;
+  margin-bottom: 50px;
 }
 .about-container {
   padding-left: 24px;

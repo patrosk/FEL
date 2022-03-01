@@ -9,4 +9,8 @@
   .lab-container {
     flex-direction: row;
   }
+  .card-container {
+    flex-direction: row;
+    gap: 30px;
+  }
 }

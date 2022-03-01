@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles/hero.css" />
     <link rel="stylesheet" href="/styles/about.css">
     <link rel="stylesheet" href="/styles/labs.css">
+    <link rel="stylesheet" href="/styles/team.css">
     <link rel="stylesheet" href="/styles/contact.css">    
     <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="/styles/media-queries.css">
@@ -76,7 +77,7 @@
           och smaka på framtidens upplevelser med målet att utveckla modeller för 
           hållbar samhällsförändring.
         </p>
-        <svg width="366" height="23" viewBox="0 0 366 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="squiggle" width="366" height="23" viewBox="0 0 366 23" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M235.367 23L209.244 1.03547L183.121 23L156.997 1.03547L130.874 23L104.751 1.03547L78.6273 23L52.504 1.03547L26.3806 23L0 0.815825L0.522627 0.219645L26.3806 21.9645L52.504 0L78.6273 21.9645L104.751 0L130.874 21.9645L156.997 0L183.121 21.9645L209.244 0L235.367 21.9645L261.491 0L287.614 21.9645L313.745 0L339.869 21.9645L365.454 0.267442L366 1.03547L339.869 23L313.745 1.03547L287.614 23L261.491 1.03547L235.367 23Z" fill="#F6F6F6"/>
           </svg>
       </div>
@@ -91,7 +92,11 @@
         som bidrar till samhällsförändring.
       </p>
       <div class="lab-01">
-        <img src="/images/labs-pic.png" alt="">
+        <picture>
+          <source srcset="/images/labs-pic.png" media="(max-width: 999px)"/>
+          <source srcset="/images/labs-large.png" media="(min-width: 1000px)"/>
+          <img src="/images/labs-pic.png" alt="">
+        </picture>
         <h3>LAB01</h3>
         <p>I LAB01: Framtidskreatörerna utforskar vi hur åtta av Göteborgs
         utpråglade destinationsaktörer i samarbete med 34 kreativa Yrgo-studerande 
@@ -125,6 +130,40 @@
         </div>
       </div>
       <button>Läs mer om LABS</button>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team">
+      <h2>Vem är vi?</h2>
+        <p class="team-info">Initiativtagare är UIrica Ramstedt från förändringsbyrån Marlon, Johan Carlberg 
+        från Yrgo och Christer Hedberg och Anna-Maria Ölander från samarbetsbyrån &friends.</p>
+      <div class="card-container">
+          <div class="card">
+            <img src="/images/labs-pic.png" alt="portrait of ">
+            <h5>Ulrica Ramstedt</h5>
+            <p>Marlon</p>
+            <p>ulrica.ramstedt@marlon.se</p>
+            <p>070-384 96 00</p>
+          </div>
+          <div class="card">
+            <img src="/images/labs-pic.png" alt="portrait of ">
+            <h5>Johan Carlberg</h5>
+            <p>Yrgo</p>
+            <p>johan.carlberg@educ.goteborg.se</p>
+          </div>
+          <div class="card">
+            <img src="/images/labs-pic.png" alt="portrait of ">
+            <h5>Anna-Maria Ölander</h5>
+            <p>&friends</p>
+            <p>anna-maria@andfriends.se</p>
+          </div>
+          <div class="card">
+            <img src="/images/labs-pic.png" alt="portrait of ">
+            <h5>Christer Hedberg</h5>
+            <p>&friends</p>
+            <p>christer@andfriends.se</p>
+          </div>
+      </div>
     </section>
 
     <!-- KONTAKTA OSS -->
