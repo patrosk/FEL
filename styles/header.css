@@ -27,6 +27,7 @@ nav.menu-hamburger {
     background-color: var(--black);
     transform: translate(100%, 0);
     transition: transform 0.5s 0s;
+    z-index: 1;
 
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@ nav.menu-hamburger {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 1.5rem;
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
 }
 
 .menu-item a {

@@ -38,18 +38,24 @@ footer a:hover svg {
 
 @media screen and (min-width: 430px) {
   .footer-container {
+    flex-basis: auto;
+    padding: 44px 24px 100px 24px;
+
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
   }
   .footer-container div {
     padding-left: 0;
   }
   .footer-container div:first-child {
+    /* padding-left: 25px;
     padding-left: 25px;
-    max-width: 260px;
+    max-width: 260px; */
+
+    flex-basis: 40%;
   }
   .footer-container div:last-child {
-    padding-right: 80px;
+    padding-right: 240px;
   }
 }
