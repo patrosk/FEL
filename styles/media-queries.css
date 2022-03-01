@@ -2,12 +2,24 @@
   .about-container {
     flex-direction: row-reverse;
     gap: 30px;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .lab-desktop {
     display: block;
   }
   .lab-container {
     flex-direction: row;
+  }
+  .team h2 {
+    font-size: 48px;
+  }
+  .team-info {
+    width: 60%;
+    margin-right: 0;
+    margin-left: auto;
+    font-size: 28px;
+    text-align: end;
   }
   .card-container {
     flex-direction: row;

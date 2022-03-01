@@ -6,16 +6,16 @@
 }
 .about h2 {
   background-color: var(--white);
-  font-size: 38px;
+  font-size: var(--h2);
   width: fit-content;
   font-family: var(--heading);
   font-weight: 600;
-  padding: 10px 24px;
+  padding: 10px 1.5rem;
   margin-bottom: 50px;
 }
 .about-container {
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   color: var(--white);
   font-family: var(--body-regular);
   display: flex;
