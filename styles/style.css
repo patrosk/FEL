@@ -30,9 +30,9 @@
 
 :root {
   /* Color */
-  --white: #fff;
+  --white: #f6f6f6;
   --black: #212121;
-  --primary-green: #54df69;
+  --primary-green: #73e686;
   --secondary-orange: #ffb038;
   --tertiary-pink: #fbc2d3;
 
@@ -103,7 +103,11 @@ p {
   color: var(--white);
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
 }
 
@@ -122,7 +126,8 @@ label {
   margin: 0;
 }
 
-input, textarea {
+input,
+textarea {
   box-sizing: border-box;
   width: 100%;
   font-family: var(--body-regular);
@@ -161,4 +166,11 @@ input:focus,
 textarea:focus {
   border: 2px solid var(--primary-green);
   box-shadow: 0 0 0 1px var(--primary-green);
+}
+
+input::-webkit-input-placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  color: var(--black);
+  opacity: 0.5;
 }

@@ -1,6 +1,10 @@
+footer {
+  background-color: var(--black);
+  padding: 0 1.5rem;
+}
+
 .footer-container {
   width: 100vw;
-  background-color: var(--black);
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -8,6 +12,7 @@
   padding-top: 50px;
   padding-bottom: 25px;
   gap: 20px;
+  width: 100%;
 }
 .footer-container div {
   padding-left: 25px;
@@ -26,7 +31,7 @@ footer ul {
 footer svg {
   vertical-align: bottom;
   margin-left: 5px;
-  fill:var(--white);
+  fill: var(--white);
 }
 .socials li {
   padding-bottom: 10px;
@@ -37,9 +42,12 @@ footer a:hover svg {
 }
 
 @media screen and (min-width: 430px) {
+  footer {
+    padding: 0 4rem;
+  }
   .footer-container {
     flex-basis: auto;
-    padding: 44px 24px 100px 24px;
+    /* padding: 44px 24px 100px 24px; */
 
     flex-direction: row;
     justify-content: space-between;

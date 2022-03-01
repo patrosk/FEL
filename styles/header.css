@@ -1,86 +1,84 @@
 /*--- MOBILE ---*/
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--black);
-    z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: var(--black);
+  z-index: 999;
 }
 
 nav.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1.5rem;
-    vertical-align: middle;
-    height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  vertical-align: middle;
+  height: 4rem;
 }
 
 nav.menu-hamburger {
-    position: fixed;
-    top: 4rem;
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--black);
-    transform: translate(100%, 0);
-    transition: transform 0.5s 0s;
-    z-index: 1;
+  position: fixed;
+  top: 4rem;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black);
+  transform: translate(100%, 0);
+  transition: transform 0.5s 0s;
+  z-index: 1;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .menu-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 4rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 4rem 1.5rem 1.5rem 1.5rem;
 }
 
 .menu-item a {
-    font-size: var(--h2);
-    font-family: var(--heading);
-    font-weight: bold;
-    margin-bottom: 1.5rem;
+  font-size: var(--h2);
+  font-family: var(--heading);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 
 .nav-open nav {
-    transform: translate(0, 0);
-    transition-delay: 0.1s;
+  transform: translate(0, 0);
+  transition-delay: 0.1s;
 }
-
 
 /* Hide desktop nav on mobile */
 .menu-item-desktop {
-    display: none;
-    font-family: var(--heading);
+  display: none;
+  font-family: var(--heading);
 }
 
 /*--- DESKTOP ---*/
 
-@media (min-width: 940px) {
-    nav.menu {
-        padding: 2rem 4rem;
-    }
+@media (min-width: 1335px) {
+  nav.menu {
+    padding: 2rem 4rem;
+  }
 
-    .menu-toggle {
-        display: none;
-    }
+  .menu-toggle {
+    display: none;
+  }
 
-    .menu-item-desktop {
-        display: flex;
-        justify-content: space-between;
-        gap: 2rem;
+  .menu-item-desktop {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
 
-    }
-
-    .menu-item-desktop a {
-        font-size: var(--h5);
-        /* margin-left: 2rem; */
-    }
+  .menu-item-desktop a {
+    font-size: var(--h5);
+    /* margin-left: 2rem; */
+  }
 }
