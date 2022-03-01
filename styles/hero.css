@@ -12,8 +12,16 @@ section.hero {
 }
 
 .hero-content p {
-  font-size: var(--p-large);
-  margin-bottom: 3rem;
+  font-size: var(--p);
+  margin-bottom: 2rem;
+}
+
+button.primary {
+  display: none;
+}
+
+button.mobile.primary {
+  display: block;
 }
 
 .hero .image-container {
@@ -59,9 +67,22 @@ section.hero {
     margin-bottom: 2rem;
   }
 
+  .hero-content p {
+    font-size: var(--p-large);
+    margin-bottom: 2rem;
+  }
+
+  button.primary {
+    display: block;
+  }
+
+  button.mobile.primary {
+    display: none;
+  }
+
   .hero picture {
-    margin-left: -80rem;
-    padding: 0;
+    margin-left: -10rem;
+    padding: 0 2rem 0 0;
     max-width: 45rem;
     max-height: auto;
   }

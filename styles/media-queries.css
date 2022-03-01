@@ -1,8 +1,8 @@
 @media screen and (min-width: 430px) {
-  .about-container {
+  /* .about-container {
     flex-direction: row-reverse;
     gap: 30px;
-  }
+  } */
   .lab-desktop {
     display: block;
   }

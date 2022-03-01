@@ -2,6 +2,7 @@
   position: relative;
   background-color: var(--white);
   background-image: url(/images/pattern_ziczac.svg);
+  background-size: cover;
 }
 
 .contact-container {
@@ -11,18 +12,8 @@
 }
 
 .contact-container h2 {
-  position: absolute;
-  background-color: var(--black);
-  font-size: var(--h4);
   color: var(--white);
-  width: fit-content;
-  font-family: var(--heading);
-  font-weight: 600;
-  text-transform: uppercase;
-  top: 3.625rem;
-  left: 0;
-  padding: 1.5rem 1rem;
-  margin: 0;
+  background-color: var(--black);
 }
 
 .form-group {
