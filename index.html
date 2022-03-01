@@ -55,11 +55,12 @@
         <p>Provkör framtiden idag, med våra senaste kunskaper.</p>
         <button class="primary">Kontakta idag</button>
       </div>
-      <div class="image-container">
-        <div class="image-wrapper">
-          <img src="" alt="">
-        </div>
-      </div>
+        <!-- <img src="/images/Illustration_hero_dekstop.svg" alt=""> -->
+        <picture>
+          <source srcset="/images/Illustration_hero_dekstop.svg" media="(min-width: 1440px)">
+          <source srcset="/images/Illustration_hero_mobile.svg" media="(min-width: 600px)">
+          <img src="/images/Illustration_hero_mobile.svg" alt="Abstract company illustractions">
+      </picture>
     </section>
 
     <!-- OM OSS -->

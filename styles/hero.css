@@ -1,61 +1,72 @@
 /*--- MOBILE ---*/
 section.hero {
-    margin-top: 4rem;
-    background-color: var(--black);
-    padding: 9.375rem 1.5rem;
-    display: flex;
-    flex-direction: column;
+  background-color: var(--black);
+  padding: 8rem 1.5rem 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-content h1 {
-    font-size: var(--h3);
-    line-height: 1.125;
+  font-size: var(--h3);
+  line-height: 1.125;
 }
 
 .hero-content p {
-    font-size: var(--p-large);
-    margin-bottom: 3rem;
+  font-size: var(--p-large);
+  margin-bottom: 3rem;
 }
 
 .hero .image-container {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
-.hero .image-wrapper {
-    background-color: var(--tertiary-pink);
-    width: 100%;
-    height: 22rem;
+.hero picture {
+  /* background-color: var(--tertiary-pink); */
+  /* width: 100%;
+  height: 22rem; */
+  display: block;
+  min-width: 4rem;
+  min-height: 4rem;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero picture img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0;
 }
 /*--- DESKTOP ---*/
 
 @media (min-width: 1400px) {
+  section.hero {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    vertical-align: top;
+    padding: 8rem 4rem;
+  }
 
-    section.hero {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        align-content: center;
-        vertical-align: top;
-        padding: 9.375rem 4rem;
-    }
+  .hero-content {
+    margin: 0;
+  }
 
-    .hero-content {
-        margin: 0;
-    }
+  .hero-content h1 {
+    font-size: var(--h1);
+    margin-bottom: 2rem;
+  }
 
-    .hero-content h1 {
-        font-size: var(--h1);
-        margin-bottom: 2rem;
-    }
+  .hero picture {
+    margin-left: -80rem;
+    padding: 0;
+    max-width: 45rem;
+    max-height: auto;
+  }
 
-    .hero .image-container {
-        margin-top: 0;
-    }
-
-    .hero .image-wrapper {
-        width: 32rem;
-        height: 41rem;
-    }
-
-
+  .hero picture img {
+    padding: 0;
+  }
 }
