@@ -43,7 +43,7 @@
 }
 
 .separator {
-  border-top: 1px solid var(--black);
+  border-top: 2px solid var(--black);
   margin: 2rem 0;
 }
 

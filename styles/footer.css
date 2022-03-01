@@ -14,9 +14,7 @@ footer {
   gap: 20px;
   width: 100%;
 }
-.footer-container div {
-  padding-left: 25px;
-}
+
 footer h4 {
   font-family: var(--heading);
   font-weight: 500;

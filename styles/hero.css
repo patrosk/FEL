@@ -22,6 +22,7 @@ button.primary {
 
 button.mobile.primary {
   display: block;
+  margin: 0 1.25rem;
 }
 
 .hero .image-container {
