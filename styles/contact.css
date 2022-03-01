@@ -1,6 +1,7 @@
 .contact-us {
   position: relative;
   background-color: var(--white);
+  background-image: url(/images/pattern_ziczac.svg);
 }
 
 .contact-container {
@@ -135,5 +136,12 @@
 
   .contact-info {
     margin-right: 15%;
+  }
+
+  .contact-pattern {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 }

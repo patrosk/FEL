@@ -62,7 +62,7 @@ nav.menu-hamburger {
 
 /*--- DESKTOP ---*/
 
-@media (min-width: 940px) {
+@media (min-width: 1335px) {
   nav.menu {
     padding: 2rem 4rem;
   }

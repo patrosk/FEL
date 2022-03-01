@@ -40,7 +40,7 @@ section.hero {
 }
 /*--- DESKTOP ---*/
 
-@media (min-width: 1400px) {
+@media (min-width: 1335px) {
   section.hero {
     flex-direction: row;
     justify-content: space-between;
