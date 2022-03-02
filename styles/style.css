@@ -61,7 +61,7 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   font-family: var(--body-regular);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 a {
