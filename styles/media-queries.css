@@ -25,14 +25,13 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1000px) {
-  .labs-info {
+  .labs p {
     font-size: 1.8rem;
   }
   .lab-desktop {
     display: block;
   }
   .lab-container {
-    margin: 3rem 4rem;
     flex-direction: row;
   }
   .lab {

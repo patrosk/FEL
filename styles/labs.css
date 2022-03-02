@@ -2,6 +2,12 @@
  * Labs *
 *********************/
 
+.lab-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
 .labs {
   background-color: var(--tertiary-pink);
   padding-top: 50px;
@@ -21,7 +27,7 @@
 .labs-info {
   color: var(--black);
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
 }
 .lab-01,
 .lab-01 img {
