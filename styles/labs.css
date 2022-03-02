@@ -7,6 +7,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
   background-image: url(/images/grid.svg);
+  background-size: cover;
 }
 .labs h2 {
   background-color: var(--black);
@@ -28,6 +29,27 @@
 .lab-01 img {
   width: 100%;
   background-color: var(--black);
+}
+.lab-01 svg {
+  float: right;
+  margin-top: 7rem;
+  margin-right: 1.5rem;
+  width: 3rem;
+  fill: var(--white);
+  transition: 0.2s;
+}
+.lab svg {
+  float: right;
+  margin-top: 9rem;
+  margin-right: 1.5rem;
+  width: 3rem;
+  fill: var(--white);
+  transition: 0.2s;
+}
+.labs svg:hover {
+  fill: var(--primary-green);
+  cursor: pointer;
+  transform: scale(1.2);
 }
 .lab {
   background-color: var(--black);
@@ -61,7 +83,18 @@
   padding-right: 80px;
   padding-bottom: 30px;
 }
+<<<<<<< HEAD
 .labs button {
   background-color: transparent;
   margin: 50px auto;
+=======
+.labs-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.labs-button button {
+  background-color: var(--tertiary-pink) !important;
+  margin-top: 50px !important;
+>>>>>>> 8101aeeb3f6ab0b8f360891024849211bce44568
 }
