@@ -1,4 +1,4 @@
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 1000px) {
   /* .about-container {
     flex-direction: row-reverse;
     gap: 30px;
@@ -50,6 +50,7 @@
   .card-container {
     flex-direction: row;
     gap: 30px;
+    max-width: 210px;
   }
 }
 

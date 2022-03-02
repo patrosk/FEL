@@ -36,6 +36,7 @@
   margin-right: 1.5rem;
   width: 3rem;
   fill: var(--white);
+  transition: 0.2s;
 }
 .lab svg {
   float: right;
@@ -43,9 +44,12 @@
   margin-right: 1.5rem;
   width: 3rem;
   fill: var(--white);
+  transition: 0.2s;
 }
 .labs svg:hover {
   fill: var(--primary-green);
+  cursor: pointer;
+  transform: scale(1.2);
 }
 .lab {
   background-color: var(--black);
@@ -79,7 +83,12 @@
   padding-right: 80px;
   padding-bottom: 30px;
 }
-.labs button {
+.labs-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.labs-button button {
   background-color: var(--tertiary-pink) !important;
   margin-top: 50px !important;
 }
