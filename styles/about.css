@@ -32,7 +32,8 @@
   margin: 0;
 }
 
-.about-container h2 {
+.about-container h2,
+.team h2 {
   color: var(--black);
   background-color: var(--white);
 }

@@ -1,19 +1,24 @@
 .team {
+  position: relative;
   background-color: var(--black);
   background-image: url(/images/pattern_triangle.svg);
   background-position: center;
-  padding-top: 50px;
+  padding-top: 9rem;
 }
+
 .team h2 {
-  background-color: var(--white);
-  font-size: 38px;
+  position: absolute;
+  font-size: var(--h4);
   width: fit-content;
   font-family: var(--heading);
   font-weight: 600;
-  padding: 10px 24px;
-  margin-left: auto;
-  margin-right: 0;
+  text-transform: uppercase;
+  top: 3.625rem;
+  right: 0;
+  padding: 0.75rem 1rem;
+  margin: 0;
 }
+
 .team-info {
   padding: 50px 24px;
   background-color: var(--black);
@@ -39,4 +44,13 @@
 }
 .card img {
   width: 100%;
+}
+
+/*--- DESKTOP ---*/
+
+@media (min-width: 1022px) {
+  .team h2 {
+    top: 2.5rem;
+    padding: 1rem 4rem;
+  }
 }
