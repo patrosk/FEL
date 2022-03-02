@@ -5,6 +5,15 @@
     margin-right: 4rem;
     width: auto;
   }
+  .lab-01 svg {
+    margin-top: 1.5rem;
+  }
+  .lab {
+    margin: 0 4rem;
+  }
+  .lab svg {
+    margin-top: 4rem;
+  }
   .card-container {
     flex-wrap: wrap;
     flex-direction: row;
@@ -39,7 +48,7 @@
     font-size: 1.5rem;
   }
   .lab-01 svg {
-    margin-top: 1.5rem;
+    margin-top: 6.5rem;
   }
   .lab svg {
     margin-top: 15rem;
@@ -79,6 +88,14 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .lab-01 svg {
+    margin-top: 4.5rem;
+    width: 8rem;
+  }
+  .lab svg {
+    margin-top: 8rem;
+    width: 2.6rem;
+  }
   .card {
     max-width: none;
   }
