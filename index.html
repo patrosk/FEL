@@ -20,8 +20,11 @@
     <header>
       <nav class="menu">
         <a class="logo" href="">
-          Logo goes here
-          <img src="" />
+          <picture>
+            <source srcset="/images/logo_desktop.svg" media="(min-width: 1335px)">
+            <source srcset="/images/logo_mobile.svg" media="(min-width: 375px)">
+            <img src="/images/logo_mobile.svg" alt="Logotype for Future experience lab">
+          </picture>
         </a>
         <a class="menu-toggle">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -234,7 +237,11 @@
     <footer>
       <div class="footer-container">
         <div class="footer-logo">
-          <img src="/images/Group 3.png" alt="logo" />
+          <picture>
+            <source srcset="/images/logo_desktop.svg" media="(min-width: 1335px)">
+            <!-- <source srcset="/images/logo_mobile.svg" media="(min-width: 375px)"> -->
+            <img src="/images/logo_desktop.svg" alt="Logotype for Future experience lab">
+          </picture>
           <p>Tillsammans provkör vi framtiden. Och skapar den.</p>
         </div>
         <div class="socials">
