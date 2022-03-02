@@ -1,8 +1,7 @@
 /* TABLET */
 @media screen and (min-width: 430px) {
   .lab-01 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-bottom: 3rem;
     width: auto;
   }
   .lab-01 svg {

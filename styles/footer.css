@@ -1,6 +1,5 @@
 footer {
   background-color: var(--black);
-  padding: 0 1.5rem;
 }
 
 .footer-container {
@@ -9,8 +8,6 @@ footer {
   display: flex;
   flex-direction: column;
   font-family: var(--body-regular);
-  padding-top: 5rem;
-  padding-bottom: 4rem;
   width: 100%;
 }
 
@@ -49,7 +46,7 @@ footer a:hover svg {
 
 @media screen and (min-width: 1335px) {
   footer {
-    padding: 2rem 4rem;
+    padding: 5rem 4rem;
   }
 
   footer p {
