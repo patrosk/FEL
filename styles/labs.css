@@ -25,9 +25,13 @@
   padding: 18px;
 }
 .labs-info {
-  color: var(--black);
   text-align: center;
   margin: 0;
+}
+.labs .labs-info {
+  font-size: var(--p-large);
+  color: var(--black);
+  padding: 2rem 1.5rem;
 }
 .lab-01,
 .lab-01 img {
@@ -84,7 +88,7 @@
   margin-bottom: 0;
 }
 .labs p {
-  padding: 1.5rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
 }
 .labs-button {
   width: 100%;

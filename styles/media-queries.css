@@ -26,8 +26,13 @@
 /* DESKTOP */
 @media screen and (min-width: 1000px) {
   .labs p {
-    font-size: 1.8rem;
+    font-size: var(--p);
   }
+
+  .labs .labs-info {
+    padding: 4rem;
+  }
+
   .lab-desktop {
     display: block;
   }
