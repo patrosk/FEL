@@ -25,12 +25,14 @@
   margin-right: 24px;
 }
 .team h5 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--white);
   font-weight: 900;
+  background-color: var(--black);
 }
 .card-container p {
-  font-size: 18px;
+  font-size: 1.15rem;
+  background-color: var(--black);
 }
 .card {
   height: 630px;

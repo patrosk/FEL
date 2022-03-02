@@ -14,7 +14,7 @@
   color: var(--white);
   font-family: var(--heading);
   font-weight: 500;
-  font-size: 38px;
+  font-size: var(--h4);
   text-align: center;
   padding: 18px;
 }
@@ -54,8 +54,8 @@
 .lab {
   background-color: var(--black);
   color: var(--white);
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .lab-container {
   display: flex;
@@ -75,26 +75,20 @@
   font-weight: 500;
   font-size: 32px;
   text-align: left;
-  padding-left: 24px;
+  padding-left: 1.5rem;
   margin-bottom: 0;
 }
 .labs p {
-  padding-left: 24px;
+  padding-left: 1.5rem;
   padding-right: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 1.9rem;
 }
-<<<<<<< HEAD
-.labs button {
-  background-color: transparent;
-  margin: 50px auto;
-=======
 .labs-button {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .labs-button button {
-  background-color: var(--tertiary-pink) !important;
-  margin-top: 50px !important;
->>>>>>> 8101aeeb3f6ab0b8f360891024849211bce44568
+  background-color: transparent;
+  margin: 50px auto;
 }

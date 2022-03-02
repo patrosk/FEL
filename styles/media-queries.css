@@ -1,3 +1,30 @@
+/* TABLET */
+@media screen and (min-width: 430px) {
+  .lab-01 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    width: auto;
+  }
+  .lab-01 svg {
+    margin-top: 1.5rem;
+  }
+  .lab {
+    margin: 0 4rem;
+  }
+  .lab svg {
+    margin-top: 4rem;
+  }
+  .card-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .card {
+    max-width: 320px;
+  }
+}
+
+/* DESKTOP */
 @media screen and (min-width: 1000px) {
   /* .about-container {
     flex-direction: row-reverse;
@@ -16,17 +43,12 @@
   .lab {
     margin: 0;
   }
-  .lab-01 {
-    margin-left: 4rem;
-    margin-right: 4rem;
-    width: auto;
-  }
   .lab-01 p {
     width: 65%;
     font-size: 1.5rem;
   }
   .lab-01 svg {
-    margin-top: 1.5rem;
+    margin-top: 6.5rem;
   }
   .lab svg {
     margin-top: 15rem;
@@ -49,13 +71,32 @@
   }
   .card-container {
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 30px;
-    max-width: 210px;
+  }
+  .card {
+    max-width: 202px;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .lab-container {
     gap: 5rem;
+  }
+  .card {
+    max-width: 220px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .lab-01 svg {
+    margin-top: 4.5rem;
+    width: 8rem;
+  }
+  .lab svg {
+    margin-top: 8rem;
+    width: 2.6rem;
+  }
+  .card {
+    max-width: none;
   }
 }
