@@ -1,14 +1,4 @@
 @media screen and (min-width: 430px) {
-  /* .about-container {
-    flex-direction: row-reverse;
-    gap: 30px;
-<<<<<<< HEAD
-  } */
-=======
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
->>>>>>> refs/remotes/origin/main
   .lab-desktop {
     display: block;
   }

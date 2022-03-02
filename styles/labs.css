@@ -62,6 +62,6 @@
   padding-bottom: 30px;
 }
 .labs button {
-  background-color: var(--tertiary-pink) !important;
-  margin-top: 50px !important;
+  background-color: transparent;
+  margin: 50px auto;
 }
