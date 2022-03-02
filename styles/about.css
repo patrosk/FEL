@@ -69,7 +69,7 @@
 
 /*--- DESKTOP ---*/
 
-@media (min-width: 1335px) {
+@media (min-width: 1022px) {
   .about {
     background-repeat: no-repeat;
     background-position: -16% 260%;
