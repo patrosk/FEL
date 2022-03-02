@@ -58,7 +58,7 @@
 
 body {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   font-family: var(--body-regular);
   overflow-x: hidden;
 }
@@ -78,7 +78,6 @@ button {
   font-size: var(--p-large);
   /* background-color: var(--primary-green); */
   border: 6px dashed var(--black);
-  border-radius: 4rem;
   padding: 1rem 3rem;
   text-transform: uppercase;
   cursor: pointer;

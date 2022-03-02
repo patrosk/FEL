@@ -20,8 +20,11 @@
     <header>
       <nav class="menu">
         <a class="logo" href="">
-          Logo goes here
-          <img src="" />
+          <picture>
+            <source srcset="/images/logo_desktop.svg" media="(min-width: 1335px)">
+            <source srcset="/images/logo_mobile.svg" media="(min-width: 375px)">
+            <img src="/images/logo_mobile.svg" alt="Logotype for Future experience lab">
+          </picture>
         </a>
         <a class="menu-toggle">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,40 +53,44 @@
 
 
     <!-- HERO -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Future <br>experience<br>lab</h1>
-        <p>Provkör framtiden idag, med våra senaste kunskaper.</p>
-        <button class="primary">Kontakta idag</button>
-      </div>
-        <!-- <img src="/images/Illustration_hero_dekstop.svg" alt=""> -->
-      <picture>
-        <source srcset="/images/Illustration_hero_dekstop.svg" media="(min-width: 1335px)">
-        <source srcset="/images/Illustration_hero_mobile.svg" media="(min-width: 375px)">
-        <img src="/images/Illustration_hero_mobile.svg" alt="Abstract company illustractions">
-      </picture>
-      <button class="mobile primary">Kontakta idag</button>
-    </section>
-
-    <!-- OM OSS -->
-    <section class="about">
-      <div class="about-container">
-        <h2>OM OSS</h2>
-        <div class="image-container">
-          <picture>
-            <img src="/images/vr.png" alt="">
-          </picture>
+      <section class="hero">
+        <div class="hero-content">
+          <div class="left">
+            <h1>Future <br>experience<br>lab</h1>
+            <p>Provkör framtiden idag, med våra senaste kunskaper.</p>
+            <button class="primary">Kontakta idag</button>
+          </div>
+          <div class="right">
+            <picture>
+              <source srcset="/images/Illustration_hero_dekstop.svg" media="(min-width: 1335px)">
+              <source srcset="/images/Illustration_hero_mobile.svg" media="(min-width: 375px)">
+              <img src="/images/Illustration_hero_mobile.svg" alt="Abstract company illustractions">
+            </picture>
+          </div>
         </div>
-        <div class="text-container">
-          <div class="text-wrapper">
-            <p>Future Experience Lab är en experimentverkstad för att provköra
-              framtiden. Och skapa den.
-            </p>
-            <p>Genom engagerade samarbetsmetoder, kreativitet och upptäckarlust får 
-              destinationer, organisationer, företag och individer chans att klämma, känna
-              och smaka på framtidens upplevelser med målet att utveckla modeller för 
-              hållbar samhällsförändring.
-            </p>
+        <button class="mobile primary">Kontakta idag</button>
+      </section>
+  
+      <!-- OM OSS -->
+      <section class="about">
+        <div class="about-container">
+          <h2>OM OSS</h2>
+          <div class="image-container">
+            <picture>
+              <img src="/images/vr.png" alt="">
+            </picture>
+          </div>
+          <div class="text-container">
+            <div class="text-wrapper">
+              <p>Future Experience Lab är en experimentverkstad för att provköra
+                framtiden. Och skapa den.
+              </p>
+              <p>Genom engagerade samarbetsmetoder, kreativitet och upptäckarlust får 
+                destinationer, organisationer, företag och individer chans att klämma, känna
+                och smaka på framtidens upplevelser med målet att utveckla modeller för 
+                hållbar samhällsförändring.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -151,10 +158,10 @@
       </div>
       
     </section>
-
+  
     <!-- TEAM -->
     <section class="team">
-      <h2>Vilka är vi?</h2>
+      <h2>Vem är vi?</h2>
         <p class="team-info">Initiativtagare är UIrica Ramstedt från förändringsbyrån Marlon, Johan Carlberg 
         från Yrgo och Christer Hedberg och Anna-Maria Ölander från samarbetsbyrån &friends.</p>
       <div class="card-container">
@@ -185,7 +192,7 @@
           </div>
       </div>
     </section>
-
+  
     <!-- KONTAKTA OSS -->
     <section class="contact-us">
       <div class="contact-container">
@@ -226,12 +233,15 @@
       </div>
     </section>
 
-
     <!-- FOOTER -->
     <footer>
       <div class="footer-container">
         <div class="footer-logo">
-          <img src="/images/Group 3.png" alt="logo" />
+          <picture>
+            <source srcset="/images/logo_desktop.svg" media="(min-width: 1335px)">
+            <!-- <source srcset="/images/logo_mobile.svg" media="(min-width: 375px)"> -->
+            <img src="/images/logo_desktop.svg" alt="Logotype for Future experience lab">
+          </picture>
           <p>Tillsammans provkör vi framtiden. Och skapar den.</p>
         </div>
         <div class="socials">
