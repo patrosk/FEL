@@ -8,7 +8,7 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  padding: 12.625rem 1.5rem 1.5rem 1.5rem;
+  padding: 12.625rem 1.5rem 3rem 1.5rem;
 }
 
 .contact-container h2 {

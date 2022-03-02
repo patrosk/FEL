@@ -44,6 +44,7 @@
   /* Font size */
   --base-size: 16px;
   --p: 1rem;
+  --p-medium: 1.125rem;
   --p-large: 1.5rem;
   --h1: 7.375rem;
   --h2: 4.5rem;
