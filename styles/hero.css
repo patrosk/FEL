@@ -5,7 +5,8 @@ section.hero {
 }
 
 .hero-content,
-.about-container {
+.about-container,
+.contact-container {
   display: flex;
   flex-direction: column;
   max-width: 1312px;
