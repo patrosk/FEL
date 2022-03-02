@@ -7,31 +7,38 @@ footer {
   width: 100vw;
   color: var(--white);
   display: flex;
-  flex-basis: none;
   flex-direction: column;
   font-family: var(--body-regular);
-  padding-top: 50px;
-  padding-bottom: 25px;
-  gap: 20px;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
   width: 100%;
 }
 
 footer h4 {
   font-family: var(--heading);
+  font-size: var(--h5);
   font-weight: 500;
 }
 footer ul {
   list-style: none;
   padding: 0;
 }
+
+.footer-logo,
+.socials {
+  padding-bottom: 2.5rem;
+}
+
 .footer-logo {
   font-family: var(--body-bold);
 }
+
 footer svg {
   vertical-align: bottom;
   margin-left: 5px;
   fill: var(--white);
 }
+
 .socials li {
   padding-bottom: 10px;
 }
@@ -42,27 +49,28 @@ footer a:hover svg {
 
 @media screen and (min-width: 1335px) {
   footer {
-    padding: 0 4rem;
+    padding: 2rem 4rem;
   }
+
+  footer p {
+    font-size: var(--p-medium);
+  }
+
   .footer-container {
     flex-basis: auto;
-    /* padding: 44px 24px 100px 24px; */
-
     flex-direction: row;
     justify-content: space-between;
-    /* padding-bottom: 80px; */
   }
+
   .footer-container div {
     padding-left: 0;
   }
-  .footer-container div:first-child {
-    /* padding-left: 25px;
-    padding-left: 25px;
-    max-width: 260px; */
 
+  .footer-container div:first-child {
     flex-basis: 40%;
   }
+
   .footer-container div:last-child {
-    padding-right: 10rem;
+    padding-right: 8rem;
   }
 }
