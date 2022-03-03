@@ -38,9 +38,15 @@
   }
   .lab-container {
     flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .lab {
     margin: 0;
+  }
+  .lab-01 {
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .lab-01 p {
     width: 65%;
@@ -75,6 +81,14 @@
     gap: 5rem;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .lab svg {
+    margin-top: 8rem;
+    width: 2.6rem;
+  }
+}
+
 @media screen and (min-width: 1330px) {
   .lab-01 svg {
     margin-top: 4.5rem;
