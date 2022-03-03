@@ -43,6 +43,7 @@
   }
   .lab {
     margin: 0;
+    width: calc(100% / 3);
   }
   .lab-01 {
     margin-left: 4rem;
