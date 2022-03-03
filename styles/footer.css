@@ -35,6 +35,7 @@ footer svg {
   vertical-align: bottom;
   margin-left: 5px;
   fill: var(--white);
+  transition: 0.15s;
 }
 
 .socials li {
