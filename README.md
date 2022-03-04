@@ -20,16 +20,10 @@ Install this project by following these steps:
 
   > https://github.com/patrosk/FEL
 
-- In the project's root folder, start a php server by typing this in your terminal:
+- Start a live server with the extension Live Server in Visual Studio Code
 
-  > php -S localhost:8000
-
-- Open up your browser and paste this URL in the address bar:
-
-  > https://localhost:8000
-
-- If that doesn't work, paste this in the address bar instead:
-  > https://localhost:8000/index.php
+- If that doesn't work, you can visit the live page instead:
+  > https://fel-grupp11.netlify.app/
 
 
 # Code Review
