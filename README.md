@@ -6,10 +6,10 @@ Link to the live page: https://fel-grupp11.netlify.app/
 
 This site has been created by the following people:
 
-Juna Jakobsson, Digital Designer
-Rony Majzoub, Digital Designer
-[Marcus Hägerstrand](https://github.com/marcusxyz), Web Developer
-[Nema VInkeloe Uuskyla](https://github.com/patrosk), Web Developer
+Juna Jakobsson, Digital Designer \
+Rony Majzoub, Digital Designer \
+[Marcus Hägerstrand](https://github.com/marcusxyz), Web Developer \
+[Nema VInkeloe Uuskyla](https://github.com/patrosk), Web Developer \
 
 
 # Installation
